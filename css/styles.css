@@ -1,11 +1,20 @@
+a {
+    margin: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #FCFFA6;
+
+}
+
 body {
     color: #FCFFA6;
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
-    background-color: aliceblue;
-    
-    
+    background-color: white;   
 }
 
 h1 {
@@ -28,82 +37,26 @@ h3 {
     color: rgb(0, 0, 0);
 }
 
-
-
-.top-container {
-    background-color: #B5DEFF;
-    position: relative;
-    padding-top: 100px;
+hr {
+    border: dotted #080808 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 50px auto;
 }
 
-.middle-container {
-    margin-top: 100px;
+.apresentacao {
+    text-align: center;
 }
 
 .bottom-container {
-    background-color: #CC1FFD7F;
+    background-color: #B5DEFF;
     margin-bottom: 0;
     padding: 30 0 20;
-    margin-top: 50px;
-}
-
-.cloud-top {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    right: 300px;
-    top: 100px;
-    
-}
-
-.cloud-bottom {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    left: 300px;
-    top: 190px;
-    
+    margin-top: 0px;
 }
 
 .copyright {
     color: white;
-}
-
-.sun {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: 70px;
-    right: 500px;
-}
-
-.imagem-principal {
-    width: 20%;
-    height: 40%;
-}
-
-.imagens-cidade {
-    margin-top: 80px;
-}
-
-.pro {
-    margin-top: 30px;
-}
-
-
-
-.nerd {
-    width: 10%;
-    margin-bottom: 30px;
-}
-
-.ola {
-    margin-top: 20px;
-}
-
-.intro {
-    width: 30%;
-    margin: auto;
 }
 
 .habilidade{
@@ -113,32 +66,113 @@ h3 {
     margin-bottom: 20px;
     margin-top: 20px;
 }
-
-hr {
-    margin-top: 30px;
+.intro {
     width: 30%;
-}
-a {
-    margin: 10px 20px;
-   text-decoration: none;
+    margin: auto;
 }
 
-a:hover {
-    color: #FCFFA6;
+.top-container {
+    background-color: #B5DEFF;
+    position: relative;
+    padding-top: 100px;
+}
 
+.ola {
+    margin-top: 20px;
+}
+
+.pro {
+    margin-top: 30px;
+}
+
+
+/* Imagens */
+
+.nerd {
+    width: 10%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.cloud-top {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 300;
+    top: 100px;  
+}
+
+.cloud-bottom {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 300;
+    top: 200px; 
 }
 
 .imagem {
 
-width: 120px;
-height: 120px;
-margin-top: 10px;
+    width: 120px;
+    height: 120px;
+    margin-top: 10px;
 }
 
-.hr-habilidades {
-    border: dotted #080808 6px;
-    border-bottom: none;
-    width: 4%;
-    margin: 50px auto;
-
+.imagem-principal {
+    margin-top: 40px;
+    width: 20%;
+    height: 60%;
 }
+
+.sun{
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+}  
+
+/* Navigation Bar */
+
+.navbar {
+    padding: auto;  
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+/* Contato */
+
+.btn {
+    margin-top: 50px;
+    background: #CAB8FF;
+    background-image: -webkit-linear-gradient(top, #CAB8FF, #CAB8FF);
+    background-image: -moz-linear-gradient(top, #CAB8FF, #CAB8FF);
+    background-image: -ms-linear-gradient(top, #CAB8FF, #CAB8FF);
+    background-image: -o-linear-gradient(top, #CAB8FF, #CAB8FF);
+    background-image: linear-gradient(to bottom, #CAB8FF, #CAB8FF);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 8px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #C1FFD7;
+    background-image: -webkit-linear-gradient(top, #C1FFD7, #C1FFD7);
+    background-image: -moz-linear-gradient(top, #C1FFD7, #C1FFD7);
+    background-image: -ms-linear-gradient(top, #C1FFD7, #C1FFD7);
+    background-image: -o-linear-gradient(top, #C1FFD7, #C1FFD7);
+    background-image: linear-gradient(to bottom, #C1FFD7, #C1FFD7);
+    text-decoration: none;
+  }
+
+
+
